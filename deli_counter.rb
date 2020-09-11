@@ -27,6 +27,10 @@ def take_a_number(katz_deli, customer)
    if katz_deli.empty?
      puts "There is nobody waiting to be served."
    else
-     
+       
+     katz_deli.each do |name|
+       puts "Currently serving #{name}."
+     end
+   end
  
  
