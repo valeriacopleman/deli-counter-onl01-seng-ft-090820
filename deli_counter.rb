@@ -16,12 +16,13 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli)
-  customer = gets.chomp
+def take_a_number(katz_deli, customer)
+  
   katz_deli<< customer 
     puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
    
   end
+ 
  
  
  
