@@ -28,8 +28,8 @@ def take_a_number(katz_deli, customer)
      puts "There is nobody waiting to be served."
    else
        
-     katz_deli.each do |name|
-       puts "Currently serving #{name}."
+       puts "Currently serving #{katz_deli.first}."
+       katz_deli.shift
      end
    end
  
