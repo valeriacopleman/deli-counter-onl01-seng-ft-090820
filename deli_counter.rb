@@ -17,11 +17,11 @@ end
 end
 
 def take_a_number(katz_deli)
-  number =1 
   
-  katz_deli.each do |customer|
-    puts "Welcome, #{customer}. You are number #{number} in line."
-    number += 1 
+  
+  katz_deli<< customer 
+    puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
+   
   end
  end
  
