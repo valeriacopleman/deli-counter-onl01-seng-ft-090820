@@ -23,6 +23,8 @@ def take_a_number(katz_deli, customer)
    
   end
  
- def now_serving()
+ def now_serving(katz_deli)
+   if katz_deli.empty?
+     puts "There are no "
  
  
