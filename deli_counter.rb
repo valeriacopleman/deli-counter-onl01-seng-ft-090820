@@ -31,6 +31,7 @@ def take_a_number(katz_deli, customer)
        puts "Currently serving #{katz_deli.first}."
        katz_deli.shift
      end
+     puts "The line is currently empty."
    end
  
  
