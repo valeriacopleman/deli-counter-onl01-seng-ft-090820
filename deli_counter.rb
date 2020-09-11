@@ -16,9 +16,8 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, customer)
   
-  customer =[]
   katz_deli<< customer 
     puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
    
